@@ -873,3 +873,22 @@ details p { color: rgba(255,255,255,.65); font-size: .875rem; padding-top: 10px;
   .inscripcion-form { padding: 24px 20px; }
   .contacto-form    { padding: 24px 20px; }
 }
+
+/* Texto en inglés desplegable dentro de las tarjetas de cursos */
+.course-english {
+  border-top: 1px solid var(--gray-200);
+  border-bottom: 0;
+  margin: 18px 0;
+  padding: 14px 0 0;
+}
+
+.course-english summary {
+  color: var(--blue-light);
+}
+
+.course-english > div p {
+  color: var(--gray-600);
+  font-size: 0.875rem;
+  line-height: 1.6;
+  padding-top: 10px;
+}
